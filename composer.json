@@ -1,0 +1,10 @@
+{
+    "name": "fabiosal/game-of-life",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {"GOF\\": "src/"}
+    },
+    "require": {}
+}

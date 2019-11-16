@@ -1,0 +1,4 @@
+vendor/
+*.cache
+tags
+*.tags
