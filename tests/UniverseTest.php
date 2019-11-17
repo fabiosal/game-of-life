@@ -3,8 +3,8 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use GOF\Universe;
-use GOF\Cell;
+use GOL\Universe;
+use GOL\Cell;
 
 class UniverseTest extends TestCase
 {

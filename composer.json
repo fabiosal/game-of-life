@@ -4,7 +4,7 @@
         "phpunit/phpunit": "^8.4"
     },
     "autoload": {
-        "psr-4": {"GOF\\": "src/"}
+        "psr-4": {"GOL\\": "src/"}
     },
     "require": {}
 }

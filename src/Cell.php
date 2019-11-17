@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GOF;
+namespace GOL;
 
 class Cell
 {
@@ -51,8 +51,8 @@ class Cell
         return $this->state;
     }
 
-    public function setAlive(){
-        $this->state = self::ALIVE; 
-    
+    public function setAlive()
+    {
+        $this->state = self::ALIVE;
     }
 }

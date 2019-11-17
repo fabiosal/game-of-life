@@ -1,10 +1,9 @@
 <?php
-
 declare(strict_types=1);
 
-namespace GOF;
+namespace GOL;
 
-use GOF\Cell;
+use GOL\Cell;
 
 class Universe
 {

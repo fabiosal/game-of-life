@@ -2,7 +2,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 $length = 8;
-$universe = new GOF\Universe($length);
+$universe = new GOL\Universe($length);
 $universe->setCellAlive(0, 1);
 $universe->setCellAlive(3, 1);
 $universe->setCellAlive(2, 1);

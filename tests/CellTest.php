@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use GOF\Cell;
+use GOL\Cell;
 
 class CellTest extends TestCase
 {
