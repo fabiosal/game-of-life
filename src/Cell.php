@@ -1,5 +1,7 @@
 <?php
+
 declare(strict_types=1);
+
 namespace GOF;
 
 class Cell
@@ -13,7 +15,7 @@ class Cell
 
     public function __construct(int $state)
     {
-        $this->state= $state === self::ALIVE ? self::ALIVE : self::DEAD;
+        $this->state = $state === self::ALIVE ? self::ALIVE : self::DEAD;
     }
 
 
@@ -27,24 +29,30 @@ class Cell
                 $this->nextState = self::DEAD;
             }
         } elseif ($this->state === self::DEAD) {
-            if($numberOfAliveNeighbours === 3){
-                $this->nextState = self::ALIVE; 
+            if ($numberOfAliveNeighbours === 3) {
+                $this->nextState = self::ALIVE;
             }
         }
     }
 
-    public function evolve(){
+    public function evolve()
+    {
         $this->state = $this->nextState;
-       $this->nextState = null; 
+        $this->nextState = null;
     }
 
     public function getNextState()
     {
         return $this->nextState;
     }
-    
+
     public function getState()
     {
         return $this->state;
+    }
+
+    public function setAlive(){
+        $this->state = self::ALIVE; 
+    
     }
 }
